@@ -237,6 +237,85 @@ def start_checking():
     while(True):
         if is_run == False:
             break
+        print_pro("Refreshing all the browsers ...")
+        try:
+            driver_matchodds.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on matchodds")
+        except:
+            pass
+        try:
+            driver_halftime.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on halftime")
+        except:
+            pass
+        try:
+            driver_firsthalfgoals05.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on firsthalfgoals05")
+        except:
+            pass
+        try:
+            driver_firsthalfgoals15.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on firsthalfgoals15")
+        except:
+            pass
+        try:
+            driver_firsthalfgoals25.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on firsthalfgoals25")
+        except:
+            pass
+        try:
+            driver_halftimescore.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on halftimescore")
+        except:
+            pass
+        try:
+            driver_overunder05.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on overunder05")
+        except:
+            pass
+        try:
+            driver_overunder15.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on overunder15")
+        except:
+            pass
+        try:
+            driver_overunder25.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on overunder25")
+        except:
+            pass
+        try:
+            driver_overunder35.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on overunder35")
+        except:
+            pass
+        try:
+            driver_overunder45.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on overunder45")
+        except:
+            pass
+        try:
+            driver_overunder55.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on overunder55")
+        except:
+            pass
+        try:
+            driver_overunder65.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on overunder65")
+        except:
+            pass
+        try:
+            driver_correctscore.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on correctscore")
+        except:
+            pass
+        try:
+            driver_bothteamstoscore.find_element_by_xpath('//*[@id="main-wrapper"]/div/div[2]/div/ui-view/div/div/div[1]/div[3]/div/div[1]/div/bf-main-market/bf-main-marketview/div/div[1]/bf-marketview-header-wrapper/div/div/mv-header/div/div/div[2]/div/button').click()
+            print_pro("Clicked refresh on bothteamstoscore")
+        except:
+            pass
+
+        if is_run == False:
+            break
         print_pro("Getting data from all the browsers ...")
         #Match details
         try:
