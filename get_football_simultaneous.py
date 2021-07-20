@@ -314,6 +314,8 @@ def start_checking():
         except:
             pass
 
+        time.sleep(2)
+
         if is_run == False:
             break
         print_pro("Getting data from all the browsers ...")
